@@ -75,12 +75,12 @@ const Chat = () => {
       {messages.map(message => (<Message message={message.message} timestamp={message.timestamp} user={message.user}/>))}
     </div>
 
-    <div className="chat__input">
-      <AddCircleIcon fontSize='large'/>
-      <form>
-        <input type="text" disabled={!channelId} value={input} onChange={(e) => setInput(e.target.value)} placeholder={`Message #${channelName}`}/>
-        <button className='chat__inputButton' onClick={sendMessage} disabled={!channelId} type='submit'>Send Message</button>
-      </form>
+            <div className="chat__input">
+                <AddCircleIcon fontSize='large' />
+                <form>
+                    <input type="text" disabled={!channelId} value={input} onChange={(e) => setInput(e.target.value)} placeholder={`Message #${channelName}`} />
+                    <button className='chat__inputButton' onClick={sendMessage} disabled={!channelId} type='submit'>.</button>
+                </form>
 
       <div className="chat__inputIcon">
         <CradGiftcardIcon fontSize='large'/>
