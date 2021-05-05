@@ -1,1 +1,1 @@
-# Daycare-Center-MERN-APP
+# EAD-MERN-APP
