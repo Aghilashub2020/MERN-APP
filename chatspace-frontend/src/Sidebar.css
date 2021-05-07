@@ -18,6 +18,7 @@
 
 .sidebar__channels {
     flex: 1;
+    overflow-y: scroll;
 }
 
 .sidebar__addChannel {
