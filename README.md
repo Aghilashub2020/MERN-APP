@@ -22,7 +22,7 @@ Our previous project, GhettoGroupo- a project management platform, had everythin
 
 #### Steps to setup evironment
 
-Initially, make sure you have all npm and node.js installed in your device.
+Initially, make sure you have both npm and node.js installed in your device.
 To install all the dependencies, run the following in both the frontend and backend folders.
 > npm i
 
